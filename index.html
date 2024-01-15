@@ -654,8 +654,9 @@
                     </div>
 
                     <script>
-                        document.getElementById('pdfIconOne').addEventListener('touchstart', function() {
-                            document.getElementById('pdfPopup').style.display = 'block';
+                        document.getElementById('pdfIconOne').addEventListener('click', function() {
+                            // Open the PDF in a new tab
+                            window.open('WTR/TULIPRETAIL.pdf', '_blank');
                         });
 
                         // Close PDF popup function
@@ -663,6 +664,7 @@
                             document.getElementById('pdfPopup').style.display = 'none';
                         }
                     </script>
+
 
 
                 </section>
