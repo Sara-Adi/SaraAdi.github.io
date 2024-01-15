@@ -1461,7 +1461,8 @@ textarea.form-input::-webkit-resizer {
     .project-img {
         border-radius: 16px;
     }
-    .pdf-popup {
+    .pdf-popup,
+    .pdf-popup2 {
         display: none;
         position: fixed;
         top: 50%;

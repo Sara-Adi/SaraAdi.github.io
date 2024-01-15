@@ -665,6 +665,27 @@
                         }
                     </script>
 
+                    <!-- PDF Popup - kpmg-->
+                    <div class="pdf-popup2" id="pdfPopup2">
+                        <!-- Close button -->
+                        <div class="close-btn" onclick="closePdfPopup()">X</div>
+
+                        <!-- You can embed your PDF viewer or use an iframe here -->
+                        <iframe src="WTR/KPMG.pdf" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfIconTwo').addEventListener('click', function() {
+                            // Open the PDF in a new tab
+                            window.open('WTR/KPMG.pdf', '_blank');
+                        });
+
+                        // Close PDF popup function
+                        function closePdfPopup() {
+                            document.getElementById('pdfPopup2').style.display = 'none';
+                        }
+                    </script>
+
 
 
                 </section>
