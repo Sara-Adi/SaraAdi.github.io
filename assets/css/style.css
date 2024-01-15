@@ -1463,7 +1463,8 @@ textarea.form-input::-webkit-resizer {
     }
     .pdf-popup,
     .pdf-popup2,
-    .pdf-popup3 {
+    .pdf-popup3,
+    .pdf-popup4 {
         display: none;
         position: fixed;
         top: 50%;
@@ -1479,7 +1480,8 @@ textarea.form-input::-webkit-resizer {
     /* Style for the close button */
     .close-btn,
     .close-btn2,
-    .close-btn3 {
+    .close-btn3,
+    .close-btn4 {
         position: absolute;
         top: 10px;
         right: 10px;

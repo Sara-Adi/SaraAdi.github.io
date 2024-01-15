@@ -628,7 +628,7 @@
                             <a href="#">
 
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box">
+                                    <div class="project-item-icon-box" id="pdfIconFour">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
 
@@ -698,6 +698,24 @@
                         // Close PDF popup function
                         function closePdfPopup3() {
                             document.getElementById('pdfPopup3').style.display = 'none';
+                        }
+                    </script>
+
+                    <!-- PDF Popup - munichre-->
+                    <div class="pdf-popup4" id="pdfPopup4">
+                        <!-- Close button -->
+                        <div class="close-btn4" onclick="closePdfPopup3()">X</div>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfIconFour').addEventListener('click', function() {
+                            // Open the PDF in a new tab
+                            window.open('WTR/MUNICHRE.pdf', '_blank');
+                        });
+
+                        // Close PDF popup function
+                        function closePdfPopup4() {
+                            document.getElementById('pdfPopup4').style.display = 'none';
                         }
                     </script>
 
