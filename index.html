@@ -609,7 +609,7 @@
                             <a href="#">
 
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box">
+                                    <div class="project-item-icon-box" id="pdfIconThree">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
 
@@ -680,6 +680,24 @@
                         // Close PDF popup function
                         function closePdfPopup2() {
                             document.getElementById('pdfPopup2').style.display = 'none';
+                        }
+                    </script>
+
+                    <!-- PDF Popup - tulip 2-->
+                    <div class="pdf-popup3" id="pdfPopup3">
+                        <!-- Close button -->
+                        <div class="close-btn3" onclick="closePdfPopup3()">X</div>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfIconThree').addEventListener('click', function() {
+                            // Open the PDF in a new tab
+                            window.open('WTR/TULIPRETAILTWO.pdf', '_blank');
+                        });
+
+                        // Close PDF popup function
+                        function closePdfPopup3() {
+                            document.getElementById('pdfPopup3').style.display = 'none';
                         }
                     </script>
 
