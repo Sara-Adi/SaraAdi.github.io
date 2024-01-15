@@ -592,22 +592,16 @@
                         </li>
 
 
-                        <li class="project-item  active" data-filter-item data-category="Fall '22">
+                        <li class="project-item active" data-filter-item data-category="Fall '22">
                             <a href="#">
-
                                 <figure class="project-img">
-                                    <div class="project-item-icon-box">
+                                    <div class="project-item-icon-box" id="pdfIcon">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
-
                                     <img src="./assets/images/kpmg.png" alt="orizon" loading="lazy" style="height: 13rem;">
-
                                 </figure>
-
                                 <h3 class="project-title">KPMG: Technology Risk Consultant</h3>
-
                                 <p class="project-category">Fall '22</p>
-
                             </a>
                         </li>
 
@@ -649,6 +643,18 @@
                         </li>
 
                     </ul>
+
+                    <!-- PDF Popup -->
+                    <div class="pdf-popup" id="pdfPopup">
+                        <!-- You can embed your PDF viewer or use an iframe here -->
+                        <iframe src="test.pdf" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfIcon').addEventListener('click', function() {
+                            document.getElementById('pdfPopup').style.display = 'block';
+                        });
+                    </script>
 
                 </section>
 
