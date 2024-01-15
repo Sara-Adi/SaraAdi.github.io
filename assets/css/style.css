@@ -1474,6 +1474,13 @@ textarea.form-input::-webkit-resizer {
         z-index: 1000;
         padding: 20px;
     }
+    /* Style for the close button */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
     /**
    * #CONTACT
    */

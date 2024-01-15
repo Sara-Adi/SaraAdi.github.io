@@ -644,16 +644,24 @@
 
                     </ul>
 
-                    <!-- PDF Popup TULIP 1-->
+                    <!-- PDF Popup - tulip-->
                     <div class="pdf-popup" id="pdfPopup">
-                        <iframe src="WTR/TULIPRETAIL.pdf" width="100%" height="100%" frameborder="0"></iframe>
+                        <!-- Close button -->
+                        <div class="close-btn" onclick="closePdfPopup()">X</div>
 
+                        <!-- You can embed your PDF viewer or use an iframe here -->
+                        <iframe src="WTR/TULIPRETAIL.pdf" width="100%" height="100%" frameborder="0"></iframe>
                     </div>
 
                     <script>
                         document.getElementById('pdfIconOne').addEventListener('click', function() {
                             document.getElementById('pdfPopup').style.display = 'block';
                         });
+
+                        // Close PDF popup function
+                        function closePdfPopup() {
+                            document.getElementById('pdfPopup').style.display = 'none';
+                        }
                     </script>
 
 
