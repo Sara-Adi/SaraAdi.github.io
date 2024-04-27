@@ -95,6 +95,17 @@ for (let i = 0; i < formInputs.length; i++) {
     });
 }
 
+// const publicKey = "_RHdgcg6X9FUTYNw0";
+// const serviceID = "service_eurg1m5";
+// const templateI = "template_iwvj307";
+
+// emailjs.init(publicKey);
+// form.addEventListener("submit", e => {
+//     //prevent form default behaviour
+//     e.preventDefault();
+//     //change button text
+// }
+
 
 
 // page navigation variables
