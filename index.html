@@ -665,6 +665,24 @@
                             </a>
                         </li>
 
+                        <li class="project-item  active" data-filter-item data-category="Summer '24">
+                            <a href="#">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box" id="pdfIconFive">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/munichre.jpeg" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Munich Re: Global Health and Life Delivery IT Solutions</h3>
+
+                                <p class="project-category">Summer '24</p>
+
+                            </a>
+                        </li>
+
                     </ul>
 
                     <!-- PDF Popup - tulip-->
@@ -739,6 +757,23 @@
                         // Close PDF popup function
                         function closePdfPopup4() {
                             document.getElementById('pdfPopup4').style.display = 'none';
+                        }
+                    </script>
+
+                    <div class="pdf-popup5" id="pdfPopup5">
+                        <!-- Close button -->
+                        <div class="close-btn5" onclick="closePdfPopup3()">X</div>
+                    </div>
+
+                    <script>
+                        document.getElementById('pdfIconFive').addEventListener('click', function() {
+                            // Open the PDF in a new tab
+                            window.open('WTR/MUNICHRES24.pdf', '_blank');
+                        });
+
+                        // Close PDF popup function
+                        function closePdfPopup5() {
+                            document.getElementById('pdfPopup5').style.display = 'none';
                         }
                     </script>
 
